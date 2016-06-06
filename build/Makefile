@@ -79,8 +79,8 @@ ICON_COLORS=--foreground-color=ffb400ff --background-color=2e4562ff
 icons: ../icons/icon_512.png
 
 install_dependencies_Linux:
-	sudo apt-get update -qq
-	sudo apt-get install -y libsndfile1-dev libpng++-dev libpng12-dev libboost-program-options-dev
+	apt-get update -qq
+	apt-get install -y libsndfile1-dev libpng++-dev libpng12-dev libboost-program-options-dev
 
 install_dependencies_Darwin:
 	brew update
